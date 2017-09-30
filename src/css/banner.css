@@ -1,0 +1,134 @@
+.viewport {
+  min-height: 1px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.father {
+  height: inherit;
+  width: 1000%;
+  transform: translate3d(0, 0, 0);
+  transition: transform 1s ease-in-out;
+}
+.banner3{
+  position: relative;
+}
+.login-out{
+  width: 574px;
+  height: 438px;
+  padding-top: 1px;
+  position: absolute;
+  right: 236px;
+  top: 19px;
+  background-image: url('../assets/denglu.png')
+}
+.login-title{
+  margin-top: 39px;
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  font-weight: bold;
+}
+.login-p{
+  margin-top: 10px;
+  margin-bottom: -2px;
+  font-size: 16px;
+  text-align: center;
+  color: #575757;
+}
+.login-input{
+  border: 1px solid #e5e4e5;
+  height: 56px;
+  width: 381px;
+  margin-left: 114px;
+  margin-top: 24px;
+  background-position: 22px 14px;
+  background-repeat: no-repeat;
+}
+.login-input:nth-of-type(1){
+  background-image: url('../assets/icon_yonghu.png');
+}
+.login-input:nth-of-type(2){
+  background-image: url('../assets/icon_mima.png');
+}
+.input-in{
+  margin-left: 68px;
+  border: 0;
+  margin-top: 15px;
+  font-size: 16px;
+  padding: 5px 0;
+  outline:none;
+}
+.submit{
+  height: 62px;
+  line-height: 62px;
+  width: 381px;
+  margin-top: 27px;
+  margin-left: 114px;
+  background-color: #3c9bed;
+  color: #fff;
+  font-size: 26px;
+  text-align: center;
+  letter-spacing: 30px;
+  box-shadow: 0 0 16px #3c9bed;
+}
+.register{
+  margin-top: 27px;
+  text-align: center;
+  color: #3c9bed;
+  font-size: 16px;
+}
+/* .father.moving { transition: none } */
+.father > div {
+  width: 10%;
+  height: inherit;
+  background: #aaa;
+  float: left;
+}
+/* .ban:nth-of-type(1){
+  
+}
+.ban:nth-of-type(2){
+  
+}
+.ban:nth-of-type(3){
+  
+} */
+/* .ban:nth-of-type(4){
+  transform: translate3d(${self.allLength*(parseInt((self.initNum+2)/self.imgLength))}px, 0, 0)
+}
+.ban:nth-of-type(5){
+  
+} */
+.mother {
+  width: 240px;
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -110px;
+  margin-bottom: 10px;
+}
+.mother >a{
+  display: inline-block;
+  text-decoration: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-left: 20px;
+} 
+.mother.left { left: 0 } 
+.mother.right { right: 0 }
+.jiantou-left{
+  width: 20px;
+  height: 33px;
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  margin-top: -11.5px;
+  background-image: url('../assets/jiantou_zuo.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

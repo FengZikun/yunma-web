@@ -1,0 +1,124 @@
+#app{
+	width: 100%;
+	min-height: 100vh
+}
+#Hello{
+	width: 100%;
+	min-height: 100vh;
+}
+img{
+	border:0;
+	width: 100%
+}
+body,dd,dl,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,ol,p,select,td,textarea,th,ul,div{
+	margin:0;padding:0
+}
+@font-face {
+  font-family: "SOURCEHANSANSCN-MEDIUM";
+  src: url("../font/SOURCEHANSANSCN-MEDIUM/SOURCEHANSANSCN-MEDIUM.woff2") format("woff2"),
+       url("../font/SOURCEHANSANSCN-MEDIUM/SOURCEHANSANSCN-MEDIUM.woff") format("woff"),
+       url("../font/SOURCEHANSANSCN-MEDIUM/SOURCEHANSANSCN-MEDIUM.ttf") format("truetype"),
+       url("../font/SOURCEHANSANSCN-MEDIUM/SOURCEHANSANSCN-MEDIUM.eot") format("embedded-opentype"),
+       url("../font/SOURCEHANSANSCN-MEDIUM/SOURCEHANSANSCN-MEDIUM.svg") format("svg"),
+       url("../font/SOURCEHANSANSCN-MEDIUM/SOURCEHANSANSCN-MEDIUM.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+	font-size:14px;
+    font-family: "SOURCEHANSANSCN-MEDIUM";
+	background:#fff;
+	-webkit-text-size-adjust:100%;
+	min-height: 100vh
+}
+a{
+	color:#172c45;text-decoration:none
+}
+a:hover{
+	color:#00BAFF#fff;text-decoration:none
+}
+em{
+	font-style:normal
+}
+li{
+	list-style:none
+}
+img{
+	vertical-align:middle
+}
+table{
+	border-collapse:collapse;border-spacing:0
+}
+p{
+	word-wrap:break-word
+}
+div,span{
+	box-sizing: border-box;
+}
+.clear-auto:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both
+}
+.clear-auto {
+	zoom: 1
+}
+.div-over{
+	width: 100%;
+	min-height: 1px;
+	float: left;
+	overflow-x: auto;
+	position: relative;
+}
+.left{
+	float: left
+}
+.right{
+	float: right
+}
+.func-item{
+	width: 1200px;
+	min-height: 1px;
+	margin: 30px auto 0;
+	zoom: 1
+}
+.func-item:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both
+}
+.masking{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 2000;
+	background: rgba(0, 0, 0, 0.6);
+	overflow-y: scroll;
+}
+.maskingBox{
+	width: 420px;
+	min-height: 310px;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -210px;
+	margin-top: -125px;
+	border-radius: 10px;
+}
+.cha{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-image: url(../assets/icon_cha_75.png);
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.cha:hover{
+	background-image: url(../assets/icon_cha_76.png);
+}

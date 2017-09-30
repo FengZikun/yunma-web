@@ -1,0 +1,76 @@
+.gray{
+	background-color: #f4f4f4;
+}
+.white{
+	background-color: #fff;
+}
+#Product{
+	background-color: #eee;
+}
+.func-title{
+	height: 113px;
+}
+.func-all{
+	height: 72px;
+	margin-top: 41px;
+	font-size: 30px;
+	color: #333;
+	text-align: center;
+	line-height: 72px;
+	background-image: url('../assets/func_bar.png');
+	background-size: 80px;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+.product-item{
+	width: 50%;
+	min-height: 258px;
+	margin-top: 31px;
+	margin-bottom: 89px;
+	float: left;
+}
+.product-img{
+	margin-left: 89px;
+	width: 407px;
+	min-height: 258px;
+}
+.product-title{
+	margin-top: 58px;
+	margin-bottom: 6px;
+	padding-left: 64px;
+	font-size: 24px;
+	color: #0086d1;
+}
+.product-p{
+	margin-top: 16px;
+	padding-left: 64px;
+	padding-right: 9px;
+	font-size: 18px;
+	line-height: 28px;
+}
+.product-img-right{
+	margin-left: 77px;
+}
+.product-title-left{
+	padding-right: 71px;
+	padding-left: 0px;
+}
+.product-p-left{
+	padding-right: 71px;
+	padding-left: 0px;
+}
+.product-title-one{
+	margin-top: 115px;
+}
+.product-title-two{
+	margin-top: 114px;
+}
+.product-title-three{
+	margin-top: 96px;
+}
+.product-title-four{
+	margin-top: 133px;
+}
+.product-title-five{
+	margin-top: 118px;
+}
