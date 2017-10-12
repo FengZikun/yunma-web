@@ -15,8 +15,8 @@
       </ul>      
     </div>
     <div class="login-out">
-      <a href="javascript:void(0)" class="login-desktop">登录</a>
-      <router-link to="/signIn" class="register-desktop">注册</router-link>
+      <a href="https://ym-a.top" class="login-desktop">登录</a>
+      <router-link to="/register" class="register-desktop">注册</router-link>
     </div>
   </div>
 </template>

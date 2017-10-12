@@ -15,7 +15,7 @@
         <div class="foot-item2">
           <p class="item-title item2-p">联系我们</p>
           <p class="item-list item2-p">0755-26531153</p>
-          <p class="item-list item2-p">深圳市宝安区西乡街道元匠坊322室</p>
+          <p class="item-list item2-p">深圳市宝安区西乡街道元匠坊3层</p>
           <p class="item-list item2-p">lw@csslink-cc.com</p>
         </div>
         <div class="foot-item3">
