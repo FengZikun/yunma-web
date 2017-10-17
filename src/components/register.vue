@@ -287,7 +287,7 @@ export default {
       picData.append('customPhone',self.customPhone);
       picData.append('vendorEmaill',self.vendorEmaill);
       $.ajax({
-        url:'http://ym-a.top/cloud_code/POST/user/registvendorUser.do',
+        url:'https://ym-a.top/cloud_code/POST/user/registvendorUser.do',
         type:'post',
         dataType:'json',
         data:picData,
@@ -314,16 +314,17 @@ export default {
     //返回登陆
     backToSignIn(){
       window.open('https://ym-a.top');
+      router.go(-1);
     },
     //下一步
     next(){
       var self=this;
       $.ajax({
-        url:'http://ym-a.top/cloud_code/GET/user/checkOutUserNameResult.do',
+        url:'https://ym-a.top/cloud_code/GET/user/checkOutUserNameResult.do',
         type:'get',
         dataType:'json',
         data:{
-          username:self.username
+          username:self.accountNum
         },
         success:function(res){
           console.log(res);
