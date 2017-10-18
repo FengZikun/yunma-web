@@ -54,7 +54,7 @@
         </p>
         <p>
           <span class="form-item"><span class="red">*</span>密码：</span>
-          <input type="text" name="" class="form-input" v-model='passwd'>
+          <input type="password" name="" class="form-input" v-model='passwd'>
         </p>
         <p>
           <span class="form-item"><span class="red">*</span>厂商名称：</span>
